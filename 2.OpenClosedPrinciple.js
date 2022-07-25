@@ -1,4 +1,4 @@
-import {iceCreamMaker, iceCreamFlavors} from "./iceCreamMaker.js"; 
+import {iceCreamMaker, iceCreamFlavors} from "./modules/iceCreamMaker.js"; 
 
 iceCreamMaker.addFlavor("Strawberry");
 
