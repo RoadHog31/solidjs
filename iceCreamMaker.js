@@ -1,3 +1,4 @@
+// https://thefullstack.xyz/solid-javascript/
 //Ice cream maker module...
 // Note: You can have only one default export per file.
 
@@ -13,6 +14,15 @@
 //   },
 // };
 // export default iceCreamMaker;
+
+
+
+
+
+
+
+
+
 
 //Good example...
 // If I have to open the JS file your module and make a modification in order to extend it, you’ve failed the open closed principle.
