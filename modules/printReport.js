@@ -7,14 +7,20 @@
 
 export class Report {
 
-  function reportFormatChange(format) {
+    constructor(params) {
+      
+    }  
+
+   reportFormatChange(format) {
     
     let contentChange = "Format has changed"
+
+    format = contentChange;
 
     return format;
   };
 
-  function reportContentchanged(content) {
+   reportContentchanged(content) {
 
     let contentChange = "Content has changed"
     
@@ -22,8 +28,8 @@ export class Report {
   };
 
 
-  function printReport(){    
+   printReport(){    
 
     console.log("One whole Report printed");
     };
-};
+}
