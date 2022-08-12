@@ -3,8 +3,7 @@
 
 // As an example, consider a module that compiles and prints a report. Such a module can be changed for two reasons. First, the content of the report can change. Second, the format of the report can change. These two things change for very different causes; one substantive, and one cosmetic. The single responsibility principle says that these two aspects of the problem are really two separate responsibilities, and should therefore be in separate classes or modules. It would be a bad design to couple two things that change for different reasons at different times.
 
-//Bad Example:
-
+//single responsibility principle - Bad Example:
 export class Report {
 
     constructor(params) {
