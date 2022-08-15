@@ -31,7 +31,7 @@
 
 //OpenClosed principle - Good example...
 // If I have to open the JS file your module and make a modification in order to extend it, you’ve failed the open closed principle.
-let iceCreamFlavors = ['chocolate', 'vanilla'];
+let iceCreamFlavors = [];
 
 let iceCreamMaker = {
 
@@ -50,4 +50,9 @@ let iceCreamMaker = {
 };
 
 // export default iceCreamMaker;
-export {iceCreamMaker, iceCreamFlavors};
+export { iceCreamMaker, iceCreamFlavors };
+
+// 1. "Open For Extension" - It is possible to extend the behavior of the module as the
+// requirements of the application change (i.e. change the behavior of the module).
+// 2. "Closed For Modification" - Extending the behavior of the module does not
+// result in the changing of the source code or binary code of the module itself. 

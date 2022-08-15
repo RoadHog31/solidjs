@@ -1,5 +1,7 @@
-import {iceCreamMaker, iceCreamFlavors} from "./modules/iceCreamMaker.js"; 
+import {iceCreamMaker, iceCreamFlavors} from "./modules/2.OpenClosedPrinciple/iceCreamMaker.js"; 
 
-iceCreamMaker.addFlavor("Strawberry");
+iceCreamMaker.addFlavor("Banana");
+
+iceCreamMaker.makeIceCream("");
 
 console.log(iceCreamFlavors);
