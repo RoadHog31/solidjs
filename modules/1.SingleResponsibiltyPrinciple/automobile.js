@@ -1,5 +1,6 @@
 /* Bad example - Single Responsibility Principle (SRP) */
-//This class violates the SRP because it has more that one reason to change.
+//This class violates the SRP because it has more that one reason to change. 
+//Does this class make sense as it is?
 export class Automobile {
     start() {
       
