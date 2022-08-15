@@ -41,6 +41,8 @@ export class Automobile {
 // For example, an Automobile class can start or stop itself but the task of washing it belongs to the CarWash class. In another example, a Book class has properties to store its own name, author and text. But the task of printing the book must belong to the BookPrinter class. The BookPrinter class might print to console or another medium but such dependencies are removed from the Book class.
 
 /* Good example - Single Responsibility Principle (SRP) */
+
+//automobile - now has only its basic functions
 export class Automobile {
 
     start() {
@@ -61,7 +63,7 @@ export class Automobile {
     }
 }
 
-//Driver class
+//Driver class - driver respnsible to drive the car not the car itself
 export class Driver {    
 
     drive() {
@@ -70,7 +72,7 @@ export class Driver {
     
 }
 
-//CarWash class
+//CarWash class - A car wash can handle washing it
 export class CarWash {    
 
     wash() {
@@ -79,7 +81,7 @@ export class CarWash {
     
 }
 
-//Mechanic class
+//Mechanic class - The mechanic is responbile for tyres and oil checks
 export class Mechanic {    
 
     changTires(Automobile, Tires) {
